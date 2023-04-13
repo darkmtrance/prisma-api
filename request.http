@@ -1,0 +1,24 @@
+
+#mostrar todo los registros
+http://localhost:3000/posts
+
+#crear un registro
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "Titulo 5",
+  "content": "5 post"
+}
+
+#actualizar un registro
+PUT http://localhost:3000/posts/4
+Content-Type: application/json
+
+{
+  "title": "Titulo 4 reload",
+  "content": "se sigue actualizando"
+}
+
+//eliminar un registro
+DELETE http://localhost:3000/posts/5
