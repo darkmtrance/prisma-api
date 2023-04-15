@@ -8,6 +8,9 @@ const options = {
         info: { tittle: "Prisma API", version: "1.0.0"},
         servers: [
             {
+                url: "https://prisma.matomaylla.com"
+            },
+            {
                 url: "http://localhost:3000"
             },
         ],
